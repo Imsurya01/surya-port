@@ -181,6 +181,7 @@ a {
 
 #btn-bottom {
     display: none;
+    
 }
 
 /* Hero Left Section End */
@@ -324,6 +325,7 @@ a {
     }
     #btn-top {
         display: none;
+        color: white;
     }
     #btn-bottom {
         margin-top: -7rem;
