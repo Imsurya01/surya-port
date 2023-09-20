@@ -571,7 +571,8 @@ a {
         margin-left: 0;
     }
     .project-skill-container {
-        width: 100%;
+        height: min-content;
+        width: max-content;
     }
     .project-skill {
         width: 35px;
