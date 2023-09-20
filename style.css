@@ -548,6 +548,8 @@ a {
         background-position: center;
     }
     .project-content {
+        height: 100%;
+        width: 100%;
         scale: 0.5;
         bottom: 0;
         left: 0;
@@ -559,7 +561,7 @@ a {
     }
     .project-heading {
         font-size: 40px;
-        width: 100%;
+        
     }
     .project-sub-heading {
         width: 100%;
@@ -571,8 +573,10 @@ a {
         margin-left: 0;
     }
     .project-skill-container {
-        height: min-content;
-        width: max-content;
+       display: flex;
+        flex-direction: top;
+        height: 100px;
+        overflow-y: scroll;
     }
     .project-skill {
         width: 35px;
