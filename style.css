@@ -181,7 +181,6 @@ a {
 
 #btn-bottom {
     display: none;
-    
 }
 
 /* Hero Left Section End */
@@ -522,11 +521,6 @@ a {
     background-image: url(./images/projects/Project3.png);
 }
 
-#project4 {
-    background-image: url(./images/projects/Project4.png);
-    margin-left: 120px;
-}
-
 @media (max-width:1300px) {
     .page-header {
         padding-top: 30px;
@@ -562,6 +556,7 @@ a {
     .project-heading {
         font-size: 40px;
         
+        
     }
     .project-sub-heading {
         width: 100%;
@@ -573,10 +568,11 @@ a {
         margin-left: 0;
     }
     .project-skill-container {
-       display: flex;
+        display: flex;
         flex-direction: top;
         height: 100px;
         overflow-y: scroll;
+        
     }
     .project-skill {
         width: 35px;
